@@ -37,7 +37,7 @@ Neste desafio foi criado uma página de `coming soon` (em breve) para o lançame
 
 ### Layout:
 
-- O layout do projeto encontra-se no [figma](<https://www.figma.com/file/hrzgkyyKcOB75RVnLaTLbK/DD-%2F-Countdown-(Copy)?node-id=629%3A2>)
+- O layout do projeto encontra-se no [figma](https://www.figma.com/file/oDZqw3v8fem3v3RC7bTKV5/DD-%2F-Countdown/duplicate)
 
 - Obs: O prazo estipulado para o contador zerar é a data de 27 de Julho de 2022, às 11 horas.
 - Quando o contador terminar, uma caixa de diálogo (alert) será exibido com a mensagem `Tempo esgotado`.
