@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
+
+  <title>Countdown</title>
+</head>
+<body>
+  <main>
+    <img src="./assets/images/top-image.svg" alt="Imagem de topo" class="image-header">
+    <div class="wrapper">
+      <div class="col-a">
+        <h1>Pronto para lançar em...</h1>
+        <div class="times">
+          <div class="times-text">
+            <span>Dias</span>
+            <span>Horas</span>
+            <span>Minutos</span>
+            <span>Segundos</span>
+          </div>
+          <div class="times-number">
+            <span class="days">00</span> 
+            <span class="hours">00</span> 
+            <span class="minutes">00</span> 
+            <span class="seconds">00</span>
+          </div>
+        </div>
+        <p>Inscreva-se para saber mais sobre o lançamento</p>
+        <button type="button" class="button-open">Inscreva-se</button>
+      </div>
+      <div class="col-b">
+        <img src="./assets/images/rocket.svg" alt="Desenho de foguete em lançamento">
+      </div>
+    </div>
+    <img src="./assets/images/bottom-image.svg" alt="Imagem de rodapé" class="image-footer">
+  </main>
+  <div class="modal closed">
+    <form>
+      <label for="name">Nome: </label>
+      <input type="text" name="name" id="name">
+
+      <label for="email">E-mail:</label>
+      <input type="email" name="email" id="email">
+
+      <button type="submit">Enviar</button>
+      <span class="button-close" aria-label="fechar" role="button" tabindex="0">X</span>
+    </form>
+  </div>
+  <script src="./assets/scripts/main.js"></script>
+  <script src="./assets/scripts/countdown.js"></script>
+  <script src="./assets/scripts/form.js"></script>
+</body>
+</html>
